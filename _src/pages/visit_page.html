@@ -1,0 +1,142 @@
+
+  <!-- ============ PAGE HERO ============ -->
+  <section class="phero" aria-label="Visit">
+    <div class="canopy" data-canopy aria-hidden="true"><div class="canopy__band"></div><div class="canopy__bulbs"></div></div>
+    <div class="wrap phero__inner phero__inner--split">
+      <div>
+        <p class="crumbs" data-fade><a href="index.html" class="link-u">Home</a> <span>/</span> Visit</p>
+        <h1 class="display" data-hero-title>
+          <span class="line"><span class="line-in">Come</span></span>
+          <span class="line"><span class="line-in"><em>upstairs.</em></span></span>
+        </h1>
+      </div>
+      <div class="phero__aside" data-fade>
+        <p class="lead">Third floor of International Wealth Centre on VIP Road, Vesu. Open every day, late.</p>
+        <p class="status status--big" data-status><i class="status__dot"></i><span data-status-text>Open daily, 11 AM – 1 AM</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VISIT ============ -->
+  <section class="visit paper" aria-label="Address, hours and map">
+    <div class="wrap visit__grid">
+      <div class="info">
+        <div class="info__block">
+          <h4>Address</h4>
+          <p>316, 3rd Floor, International Wealth Centre (IWC)<br>VIP Road, Vesu, Surat, Gujarat 395007</p>
+          <p class="info__links"><a class="link-u" href="https://maps.app.goo.gl/E2JJ2XfBJcLkJu1x6" target="_blank" rel="noopener">Open in Google Maps ↗</a></p>
+        </div>
+        <div class="info__block">
+          <h4>Hours</h4>
+          <div class="hours" data-hours></div>
+          <p class="status--ink" data-status-long></p>
+        </div>
+        <div class="info__block">
+          <h4>Call or message</h4>
+          <p><a class="link-u" href="tel:+918140608376">+91 81406 08376</a><br><a class="link-u" href="tel:+919825144196">+91 98251 44196</a></p>
+        </div>
+        <div class="info__block">
+          <h4>Follow along</h4>
+          <p><a class="link-u" href="https://www.instagram.com/maybac.srt/" target="_blank" rel="noopener">@maybac.srt</a> &mdash; new specials go up there first.</p>
+        </div>
+      </div>
+      <div>
+        <div class="map">
+          <iframe title="Map showing Maybac at International Wealth Centre, Vesu, Surat" src="https://maps.google.com/maps?q=21.1424057,72.7886364&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p class="map__note hand">look for the IWC tower on VIP Road &mdash; we&rsquo;re on 3</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BOOK ============ -->
+  <section class="booking" id="book" aria-label="Book a table">
+    <div class="wrap booking__grid">
+      <div class="booking__copy">
+        <span class="kicker">Reservations</span>
+        <h2 class="display" data-split>Hold a table <em>for us?</em></h2>
+        <p class="lead">Fill this in and it opens WhatsApp with your request already written &mdash; just hit send. We&rsquo;ll confirm from the café. In a hurry? Call us instead.</p>
+        <div class="booking__pic" data-reveal>
+          <img src="assets/img/room-bar-sm.webp" alt="The bar at Maybac with its rose canopy" loading="lazy" data-speed="-0.05">
+        </div>
+      </div>
+      <form class="book" data-book novalidate>
+        <h3>Your <em>table</em></h3>
+        <p>Takes about twenty seconds.</p>
+        <div class="field">
+          <label for="b-name">Name</label>
+          <input id="b-name" name="name" type="text" autocomplete="name" placeholder="Who should we expect?" required>
+        </div>
+        <div class="row2">
+          <div class="field">
+            <label for="b-date">Date</label>
+            <input id="b-date" name="date" type="date" required>
+          </div>
+          <div class="field">
+            <label for="b-time">Time</label>
+            <select id="b-time" name="time" required></select>
+          </div>
+        </div>
+        <div class="field">
+          <span class="lbl" id="b-guests-l">Guests</span>
+          <div class="stepper" role="group" aria-labelledby="b-guests-l">
+            <button type="button" data-step-btn="-1" aria-label="Fewer guests">−</button>
+            <output data-guests aria-live="polite">2</output>
+            <button type="button" data-step-btn="1" aria-label="More guests">+</button>
+            <span class="stepper__hint" data-guests-hint></span>
+          </div>
+        </div>
+        <div class="field">
+          <span class="lbl">Occasion</span>
+          <div class="chips">
+            <label class="chip"><input type="radio" name="occasion" value="Just because" checked><span>Just because</span></label>
+            <label class="chip"><input type="radio" name="occasion" value="Birthday"><span>Birthday</span></label>
+            <label class="chip"><input type="radio" name="occasion" value="Anniversary"><span>Anniversary</span></label>
+            <label class="chip"><input type="radio" name="occasion" value="Date night"><span>Date night</span></label>
+            <label class="chip"><input type="radio" name="occasion" value="Work"><span>Work</span></label>
+          </div>
+        </div>
+        <div class="field">
+          <label for="b-note">Anything we should know?</label>
+          <textarea id="b-note" name="note" rows="2" placeholder="Jain, a terrace table, a cake surprise…"></textarea>
+        </div>
+        <div class="book__actions">
+          <button class="btn" type="submit" data-magnetic>Send on WhatsApp <svg class="arrow" aria-hidden="true"><use href="#arrow"/></svg></button>
+          <span class="book__alt">or call <a class="link-u" href="tel:+918140608376">81406 08376</a></span>
+        </div>
+        <p class="book__msg" data-book-msg role="status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq paper" aria-label="Good to know">
+    <div class="wrap faq__grid">
+      <div>
+        <span class="kicker">Good to know</span>
+        <h2 class="display" data-split>Before <em>you come.</em></h2>
+      </div>
+      <div class="faq__list">
+        <details>
+          <summary>Is everything vegetarian?</summary>
+          <p>Yes, the whole kitchen is vegetarian. Dishes marked with a J on the menu can be made Jain, and we&rsquo;re happy to talk through anything else.</p>
+        </details>
+        <details>
+          <summary>Do I need to book?</summary>
+          <p>Walk-ins are welcome. For evenings, weekends or groups it&rsquo;s worth sending us a message first so we can hold a good table.</p>
+        </details>
+        <details>
+          <summary>How late can I come in?</summary>
+          <p>We&rsquo;re open till 1 AM every day. The pastry counter thins out as the night goes on, so come earlier if you have your heart set on something.</p>
+        </details>
+        <details>
+          <summary>Can you host a birthday or a small party?</summary>
+          <p>We do, often. Décor, a dessert table and a set menu can all be arranged &mdash; give us a call a few days ahead.</p>
+        </details>
+        <details>
+          <summary>Can I order to take away?</summary>
+          <p>Yes. Call ahead and we&rsquo;ll have it boxed, or find us on the usual delivery apps.</p>
+        </details>
+      </div>
+    </div>
+  </section>

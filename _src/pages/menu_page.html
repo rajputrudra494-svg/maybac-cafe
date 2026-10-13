@@ -1,0 +1,61 @@
+
+  <!-- ============ PAGE HERO ============ -->
+  <section class="phero" aria-label="Menu">
+    <div class="canopy" data-canopy aria-hidden="true"><div class="canopy__band"></div><div class="canopy__bulbs"></div></div>
+    <div class="wrap phero__inner phero__inner--split">
+      <div>
+        <p class="crumbs" data-fade><a href="index.html" class="link-u">Home</a> <span>/</span> Menu</p>
+        <h1 class="display" data-hero-title>
+          <span class="line"><span class="line-in">The</span></span>
+          <span class="line"><span class="line-in"><em>menu.</em></span></span>
+        </h1>
+      </div>
+      <div class="phero__aside" data-fade>
+        <p class="lead">Every dish and drink on our printed card, with prices. Search it, filter it, or just scroll and get hungry.</p>
+        <p class="phero__tag hand">Every bite, a moment. Every sip, a moment.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MENU ============ -->
+  <section class="menu paper" id="menu" aria-label="Full menu">
+    <div class="wrap">
+      <div class="menu__sheet">
+        <div>
+          <div class="menu__top">
+            <div class="menu__legend">
+              <span><i class="jbadge" aria-hidden="true">J</i> available in Jain</span>
+              <span><svg class="sigmark" aria-hidden="true"><use href="#mark"/></svg> Maybac signature</span>
+              <span>All prices in ₹</span>
+            </div>
+          </div>
+
+          <div class="menu__controls" data-menu-controls>
+            <div class="tabs" role="tablist" aria-label="Menu sections">
+              <span class="tabs__pill" aria-hidden="true"></span>
+              <button class="tab" role="tab" type="button" id="tab-kitchen" aria-controls="menu-panel" aria-selected="true" data-tab="kitchen">Kitchen</button>
+              <button class="tab" role="tab" type="button" id="tab-patisserie" aria-controls="menu-panel" aria-selected="false" data-tab="patisserie">Pâtisserie</button>
+              <button class="tab" role="tab" type="button" id="tab-bar" aria-controls="menu-panel" aria-selected="false" data-tab="bar">Coffee &amp; Bar</button>
+            </div>
+            <label class="toggle"><input type="checkbox" data-jain> <span class="toggle__ui" aria-hidden="true"></span> Jain only</label>
+            <label class="toggle"><input type="checkbox" data-sig> <span class="toggle__ui" aria-hidden="true"></span> Signatures</label>
+            <label class="search">
+              <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m11 11 4 4" stroke="currentColor" stroke-width="1.5"/></svg>
+              <span class="sr-only">Search the menu</span>
+              <input type="search" placeholder="Search — try “biscoff” or “sushi”" data-search autocomplete="off">
+            </label>
+          </div>
+
+          <nav class="menu__jump" data-menu-jump aria-label="Jump to section"></nav>
+          <p class="menu__note" data-menu-note></p>
+          <div class="menu__cols" id="menu-panel" role="tabpanel" aria-live="polite" data-menu-panel></div>
+          <p class="menu__empty" data-menu-empty>Nothing matches that &mdash; but ask us, the kitchen likes a challenge.</p>
+          <p class="menu__small">Prices are from our current printed menu and may change. Please tell your server about any allergies. Seasonal specials live on the counter and on <a class="link-u" href="https://www.instagram.com/maybac.srt/" target="_blank" rel="noopener">our Instagram</a>.</p>
+        </div>
+        <aside class="menu__band" aria-hidden="true">
+          <svg class="mark"><use href="#mark"/></svg>
+          <span>Every bite, a moment. Every moment, a luxury.</span>
+        </aside>
+      </div>
+    </div>
+  </section>

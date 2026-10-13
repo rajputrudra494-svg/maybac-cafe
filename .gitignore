@@ -1,0 +1,9 @@
+# Reference material gathered while designing the site: photos pulled from
+# Instagram/Zomato and snaps of the printed menu.  Third-party imagery, and
+# not part of the site — the shipped pictures live in assets/img.
+_research/
+
+# OS / editor cruft
+Thumbs.db
+desktop.ini
+.DS_Store

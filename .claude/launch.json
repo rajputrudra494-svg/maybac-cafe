@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "maybac", "runtimeExecutable": "python", "runtimeArgs": ["-m", "http.server", "5375", "--bind", "127.0.0.1"], "port": 5375 }
+  ]
+}

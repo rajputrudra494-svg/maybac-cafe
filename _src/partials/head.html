@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{title}}</title>
+  <meta name="description" content="{{desc}}">
+  <meta name="theme-color" content="#2a0810">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:site_name" content="Maybac">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{desc}}">
+  <meta property="og:image" content="assets/img/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..600&family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..500,0..100;1,9..144,300..500,0..100&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");try{if(sessionStorage.getItem("mb-seen"))document.documentElement.classList.add("seen")}catch(e){}</script>
+{{extra_head}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Maybac",
+    "description": "A luxury café & pâtisserie in Vesu, Surat.",
+    "image": "assets/img/room-wide.webp",
+    "telephone": ["+91-8140608376", "+91-9825144196"],
+    "servesCuisine": ["Desserts", "Café", "Italian", "Asian", "Coffee"],
+    "priceRange": "₹₹₹",
+    "menu": "menu.html",
+    "acceptsReservations": "True",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "316, 3rd Floor, International Wealth Centre (IWC), VIP Road, Vesu",
+      "addressLocality": "Surat",
+      "addressRegion": "Gujarat",
+      "postalCode": "395007",
+      "addressCountry": "IN"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 21.1424057, "longitude": 72.7886364 },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "11:00", "closes": "01:00"
+    }],
+    "sameAs": ["https://www.instagram.com/maybac.srt/"]
+  }
+  </script>
+</head>
+<body class="is-loading {{body_class}}" data-page="{{page}}">

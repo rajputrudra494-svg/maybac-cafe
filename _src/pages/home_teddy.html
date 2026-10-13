@@ -1,0 +1,53 @@
+  <!-- ============ SIGNATURE / 3D ============ -->
+  <section class="teddy" id="signature" aria-label="The Sleeping Teddy">
+    <div class="teddy__stage" data-teddy>
+      <canvas class="teddy__canvas" role="img" aria-label="Interactive 3D model of the Sleeping Teddy chocolate mousse with warm chocolate poured over it"></canvas>
+      <img class="teddy__fallback" src="assets/img/teddy-pour-sm.webp" alt="The Sleeping Teddy mousse with chocolate poured over it" loading="lazy">
+      <div class="zzz" data-zzz aria-hidden="true"><span>z</span><span>z</span><span>Z</span></div>
+      <div class="teddy__hud">
+        <span class="hint" aria-hidden="true">
+          <svg viewBox="0 0 34 20"><path d="M3 10h28M8 5 3 10l5 5M26 5l5 5-5 5"/></svg>
+          drag to turn him
+        </span>
+        <button class="pour-btn" type="button" data-pour>
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8a5 5 0 1 0 1.6-3.7M3 2v3h3" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
+          Pour again
+        </button>
+      </div>
+    </div>
+
+    <div class="teddy__ui">
+      <div class="wrap">
+        <div class="teddy__head">
+          <span class="kicker">02 — The signature</span>
+          <h2 class="display" data-split>The Sleeping <em>Teddy.</em></h2>
+        </div>
+
+        <aside class="ticket" aria-label="Menu card">
+          <div class="ticket__top"><span>Maybac Special</span><svg class="mark" style="width:14px;height:14px"><use href="#mark"/></svg></div>
+          <h4>Sleeping Teddy Mousse</h4>
+          <p>Fluffy, dreamy, chocolatey &mdash; like a hug from a teddy bear. Made of 54% chocolate &amp; cream.</p>
+          <div class="ticket__price"><b>₹540</b><span>share? maybe.</span></div>
+        </aside>
+
+        <div class="steps">
+          <div class="step is-active" data-step="0">
+            <span class="step__n">i.</span>
+            <h3>It starts as a bear.</h3>
+            <p>Chocolate mousse, set in a teddy mould and dusted in shavings so he looks properly furry.</p>
+          </div>
+          <div class="step" data-step="1">
+            <span class="step__n">ii.</span>
+            <h3>Then, the blanket.</h3>
+            <p>Warm chocolate goes over his back at the table, slowly, until he&rsquo;s tucked in.</p>
+          </div>
+          <div class="step" data-step="2">
+            <span class="step__n">iii.</span>
+            <h3>And he sleeps.</h3>
+            <p>Eyes shut, paws out. Most people take a photo before the first spoon. That&rsquo;s allowed.</p>
+          </div>
+        </div>
+        <div class="progress-rail" aria-hidden="true"><i data-teddy-progress></i></div>
+      </div>
+    </div>
+  </section>

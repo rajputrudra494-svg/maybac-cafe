@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Menu — Maybac, Surat</title>
+  <meta name="description" content="The full Maybac menu with prices: kitchen, pâtisserie, coffee &amp; bar. Pure vegetarian, Jain options marked.">
+  <meta name="theme-color" content="#2a0810">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:site_name" content="Maybac">
+  <meta property="og:title" content="Menu — Maybac, Surat">
+  <meta property="og:description" content="The full Maybac menu with prices: kitchen, pâtisserie, coffee &amp; bar. Pure vegetarian, Jain options marked.">
+  <meta property="og:image" content="assets/img/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..600&family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..500,0..100;1,9..144,300..500,0..100&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");try{if(sessionStorage.getItem("mb-seen"))document.documentElement.classList.add("seen")}catch(e){}</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Maybac",
+    "description": "A luxury café & pâtisserie in Vesu, Surat.",
+    "image": "assets/img/room-wide.webp",
+    "telephone": ["+91-8140608376", "+91-9825144196"],
+    "servesCuisine": ["Desserts", "Café", "Italian", "Asian", "Coffee"],
+    "priceRange": "₹₹₹",
+    "menu": "menu.html",
+    "acceptsReservations": "True",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "316, 3rd Floor, International Wealth Centre (IWC), VIP Road, Vesu",
+      "addressLocality": "Surat",
+      "addressRegion": "Gujarat",
+      "postalCode": "395007",
+      "addressCountry": "IN"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 21.1424057, "longitude": 72.7886364 },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "11:00", "closes": "01:00"
+    }],
+    "sameAs": ["https://www.instagram.com/maybac.srt/"]
+  }
+  </script>
+</head>
+<body class="is-loading page-menu" data-page="menu">
+
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- shared symbols -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="mark" viewBox="0 0 100 100"><path d="M6 8 47 50 6 92Z M94 8 53 50 94 92Z"/></symbol>
+  <symbol id="arrow" viewBox="0 0 16 16"><path d="M2 8h12M9 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+  <symbol id="word" viewBox="0 0 594 80"><g fill="none" stroke="currentColor" stroke-linecap="square">
+    <path d="M2 78V2l27 50L56 2v76"/><path d="M106 78 134 2l28 76"/><path d="M212 2l28 38 28-38M240 40v38"/>
+    <path d="M320 78V2h22a17 18 0 0 1 0 36h-22m22 0h4a20 20 0 0 1 0 40h-26"/><path d="M424 78 452 2l28 76"/><path d="M590 14A38 38 0 1 0 590 66"/>
+  </g></symbol>
+</svg>
+
+<div class="grain" aria-hidden="true"></div>
+
+<div class="cursor" aria-hidden="true">
+  <div class="cursor__ring"><span class="cursor__label">View</span></div>
+  <div class="cursor__dot"></div>
+</div>
+
+<!-- first-visit loader -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <svg class="loader__mark" viewBox="0 0 100 100"><path d="M6 8 47 50 6 92Z"/><path d="M94 8 53 50 94 92Z"/></svg>
+    <svg class="loader__word" viewBox="0 0 594 80">
+      <path d="M2 78V2l27 50L56 2v76"/>
+      <path d="M106 78 134 2l28 76"/>
+      <path d="M212 2l28 38 28-38M240 40v38"/>
+      <path d="M320 78V2h22a17 18 0 0 1 0 36h-22m22 0h4a20 20 0 0 1 0 40h-26"/>
+      <path d="M424 78 452 2l28 76"/>
+      <path d="M590 14A38 38 0 1 0 590 66"/>
+    </svg>
+    <p class="loader__line">Every bite, a moment.</p>
+  </div>
+  <div class="loader__where">316 · IWC · Surat</div>
+  <div class="loader__count"><span id="loaderCount">00</span></div>
+</div>
+
+<!-- page-to-page curtain -->
+<div class="curtain" id="curtain" aria-hidden="true">
+  <svg class="curtain__mark"><use href="#mark"/></svg>
+  <span class="curtain__label" data-curtain-label></span>
+</div>
+
+<!-- nav -->
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Maybac home">
+      <svg class="mark" aria-hidden="true"><use href="#mark"/></svg>
+      <svg class="brand__word" viewBox="0 0 594 80" aria-hidden="true"><use href="#word"/></svg>
+    </a>
+    <nav class="nav__links" aria-label="Main">
+      <a href="index.html#signature" class="link-u" data-nav="teddy">The Teddy</a>
+      <a href="menu.html" class="link-u" data-nav="menu" aria-current="page">Menu</a>
+      <a href="room.html" class="link-u" data-nav="room">The Room</a>
+      <a href="visit.html" class="link-u" data-nav="visit">Visit</a>
+    </nav>
+    <div class="nav__right">
+      <span class="status" data-status><i class="status__dot"></i><span data-status-text>Open daily, 11 AM – 1 AM</span></span>
+      <a class="btn" href="visit.html#book" data-magnetic>Book a table <svg class="arrow" aria-hidden="true"><use href="#arrow"/></svg></a>
+      <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer">
+  <nav class="drawer__links" aria-label="Mobile">
+    <a href="index.html" data-nav="home"><small>01</small>Home</a>
+    <a href="index.html#signature" data-nav="teddy"><small>02</small>The Teddy</a>
+    <a href="menu.html" data-nav="menu" aria-current="page"><small>03</small>Menu</a>
+    <a href="room.html" data-nav="room"><small>04</small>The Room</a>
+    <a href="visit.html" data-nav="visit"><small>05</small>Visit &amp; book</a>
+  </nav>
+  <div class="drawer__foot">
+    <a href="tel:+918140608376">+91 81406 08376</a>
+    <a href="tel:+919825144196">+91 98251 44196</a>
+    <a href="https://www.instagram.com/maybac.srt/" target="_blank" rel="noopener">@maybac.srt on Instagram</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ============ PAGE HERO ============ -->
+  <section class="phero" aria-label="Menu">
+    <div class="canopy" data-canopy aria-hidden="true"><div class="canopy__band"></div><div class="canopy__bulbs"></div></div>
+    <div class="wrap phero__inner phero__inner--split">
+      <div>
+        <p class="crumbs" data-fade><a href="index.html" class="link-u">Home</a> <span>/</span> Menu</p>
+        <h1 class="display" data-hero-title>
+          <span class="line"><span class="line-in">The</span></span>
+          <span class="line"><span class="line-in"><em>menu.</em></span></span>
+        </h1>
+      </div>
+      <div class="phero__aside" data-fade>
+        <p class="lead">Every dish and drink on our printed card, with prices. Search it, filter it, or just scroll and get hungry.</p>
+        <p class="phero__tag hand">Every bite, a moment. Every sip, a moment.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MENU ============ -->
+  <section class="menu paper" id="menu" aria-label="Full menu">
+    <div class="wrap">
+      <div class="menu__sheet">
+        <div>
+          <div class="menu__top">
+            <div class="menu__legend">
+              <span><i class="jbadge" aria-hidden="true">J</i> available in Jain</span>
+              <span><svg class="sigmark" aria-hidden="true"><use href="#mark"/></svg> Maybac signature</span>
+              <span>All prices in ₹</span>
+            </div>
+          </div>
+
+          <div class="menu__controls" data-menu-controls>
+            <div class="tabs" role="tablist" aria-label="Menu sections">
+              <span class="tabs__pill" aria-hidden="true"></span>
+              <button class="tab" role="tab" type="button" id="tab-kitchen" aria-controls="menu-panel" aria-selected="true" data-tab="kitchen">Kitchen</button>
+              <button class="tab" role="tab" type="button" id="tab-patisserie" aria-controls="menu-panel" aria-selected="false" data-tab="patisserie">Pâtisserie</button>
+              <button class="tab" role="tab" type="button" id="tab-bar" aria-controls="menu-panel" aria-selected="false" data-tab="bar">Coffee &amp; Bar</button>
+            </div>
+            <label class="toggle"><input type="checkbox" data-jain> <span class="toggle__ui" aria-hidden="true"></span> Jain only</label>
+            <label class="toggle"><input type="checkbox" data-sig> <span class="toggle__ui" aria-hidden="true"></span> Signatures</label>
+            <label class="search">
+              <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m11 11 4 4" stroke="currentColor" stroke-width="1.5"/></svg>
+              <span class="sr-only">Search the menu</span>
+              <input type="search" placeholder="Search — try “biscoff” or “sushi”" data-search autocomplete="off">
+            </label>
+          </div>
+
+          <nav class="menu__jump" data-menu-jump aria-label="Jump to section"></nav>
+          <p class="menu__note" data-menu-note></p>
+          <div class="menu__cols" id="menu-panel" role="tabpanel" aria-live="polite" data-menu-panel></div>
+          <p class="menu__empty" data-menu-empty>Nothing matches that &mdash; but ask us, the kitchen likes a challenge.</p>
+          <p class="menu__small">Prices are from our current printed menu and may change. Please tell your server about any allergies. Seasonal specials live on the counter and on <a class="link-u" href="https://www.instagram.com/maybac.srt/" target="_blank" rel="noopener">our Instagram</a>.</p>
+        </div>
+        <aside class="menu__band" aria-hidden="true">
+          <svg class="mark"><use href="#mark"/></svg>
+          <span>Every bite, a moment. Every moment, a luxury.</span>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="canopy canopy--footer" data-canopy aria-hidden="true">
+    <div class="canopy__band"></div>
+    <div class="canopy__bulbs"></div>
+  </div>
+  <div class="wrap">
+    <div class="footer__top">
+      <div>
+        <p class="footer__tag">Every bite, a moment.<br><em>Every moment, a luxury.</em></p>
+        <a class="btn" href="visit.html#book" style="margin-top:30px" data-magnetic>Book a table <svg class="arrow" aria-hidden="true"><use href="#arrow"/></svg></a>
+      </div>
+      <div>
+        <h5>Find us</h5>
+        <ul>
+          <li>316, 3rd Floor</li>
+          <li>International Wealth Centre</li>
+          <li>VIP Road, Vesu, Surat 395007</li>
+          <li><a class="link-u" href="https://maps.app.goo.gl/E2JJ2XfBJcLkJu1x6" target="_blank" rel="noopener">Get directions</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Talk to us</h5>
+        <ul>
+          <li><a class="link-u" href="tel:+918140608376">+91 81406 08376</a></li>
+          <li><a class="link-u" href="tel:+919825144196">+91 98251 44196</a></li>
+          <li><a class="link-u" href="https://www.instagram.com/maybac.srt/" target="_blank" rel="noopener">Instagram — @maybac.srt</a></li>
+          <li>Every day, 11 AM – 1 AM</li>
+        </ul>
+      </div>
+      <div>
+        <h5>Pages</h5>
+        <ul>
+          <li><a class="link-u" href="index.html">Home</a></li>
+          <li><a class="link-u" href="index.html#signature">The Sleeping Teddy</a></li>
+          <li><a class="link-u" href="menu.html">Menu</a></li>
+          <li><a class="link-u" href="room.html">The Room</a></li>
+          <li><a class="link-u" href="visit.html">Visit &amp; book</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer__word" data-footer-word aria-hidden="true">
+    <svg viewBox="-4 -4 602 88">
+      <path d="M2 78V2l27 50L56 2v76"/><path d="M106 78 134 2l28 76"/><path d="M212 2l28 38 28-38M240 40v38"/>
+      <path d="M320 78V2h22a17 18 0 0 1 0 36h-22m22 0h4a20 20 0 0 1 0 40h-26"/><path d="M424 78 452 2l28 76"/><path d="M590 14A38 38 0 1 0 590 66"/>
+    </svg>
+  </div>
+  <div class="wrap">
+    <div class="footer__base">
+      <span>© <span data-year>2026</span> Maybac · Luxury Café &amp; Pâtisserie, Surat</span>
+      <span>Pure vegetarian · Jain on request</span>
+      <a href="#top" class="to-top" data-top>Back to top <svg class="mark" aria-hidden="true"><use href="#mark"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+  <button class="lightbox__close" type="button" data-lb-close>Close ✕</button>
+  <button class="lightbox__nav lightbox__nav--prev" type="button" data-lb-prev aria-label="Previous photo"><svg class="arrow"><use href="#arrow"/></svg></button>
+  <img alt="">
+  <button class="lightbox__nav lightbox__nav--next" type="button" data-lb-next aria-label="Next photo"><svg class="arrow"><use href="#arrow"/></svg></button>
+  <p class="lightbox__cap"></p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="js/menu-data.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
